@@ -1,0 +1,41 @@
+{
+  "name": "eren_test_app",
+  "version": "1.0.0",
+  "description": "TypeScript + Sequelize + MySQL + Express API Serve",
+  "scripts": {
+    "start": "node -r ts-node/register ./src/server.ts",
+    "dev": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.14.10",
+    "@types/sequelize": "^4.28.20",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@sequelize/mysql": "^7.0.0-alpha.41",
+    "class-validator": "^0.14.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "envalid": "^8.0.0",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.2",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.3",
+    "typedi": "^0.10.0",
+    "winston": "^3.13.1",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}

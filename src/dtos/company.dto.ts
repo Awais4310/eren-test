@@ -71,3 +71,17 @@ export class returnCompanyDto {
   @IsNumber()
   public CompanyID: number;
 }
+export class deleteCompanyDto {
+  @IsNotEmpty({ message: 'company name is required' })
+  @IsString()
+  public CompanyName: string;
+
+  @IsNotEmpty({ message: 'company code is required' })
+  @IsString()
+  public CompanyCode: String;
+}
+export class CompanyByCodeDto {
+  @IsNotEmpty({ message: 'company code is required' })
+  @IsString()
+  public CompanyCode: String;
+}

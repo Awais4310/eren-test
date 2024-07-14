@@ -1,7 +1,7 @@
 import { App } from './app';
 import { ValidateEnv } from './utils/validateEnv';
-import { newroutes } from './routes/new.routes';
+import { CreateCompanyRoute } from './routes/CreateCompany.route';
 ValidateEnv();
-const app = new App([new newroutes()]);
+const app = new App([new CreateCompanyRoute()]);
 
 app.listen();
